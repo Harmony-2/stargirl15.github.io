@@ -1,0 +1,29 @@
+h1 {
+  color: yellow;
+  font-family: "fantasy", herculanum;
+  font-size: 50px
+}
+body {
+  background-color: lightyellow
+}
+.tab {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#grad1 {
+  height: 900px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, orange, yellow, orange, red); /* Standard syntax (must be last) */
+}
+
+.tablink {
+  background-color: lightyellow;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
